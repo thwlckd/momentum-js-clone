@@ -1,0 +1,70 @@
+.hidden {
+  display: none;
+}
+
+/* body {
+  background-image: url('../img/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+body {
+  text-align: center;
+}
+
+input {
+  font-size: 15px;
+  width: 300px;
+  height: 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px;
+  background-color: transparent;
+}
+
+li {
+  list-style-type: none;
+}
+
+form button{
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(128, 212, 163);
+}
+
+li button {
+  border: none;
+  background-color: transparent;
+}
+
+#clock {
+  margin-top: 200px;
+}
+
+#greeting {
+  margin-top: 50px;
+}
+
+#login-form {
+  margin-top: 50px;
+}
+
+#todo-form {
+  margin-top: 50px;
+}
+
+/* #todo-list {} */
+
+#weather {
+  position: fixed;
+  right: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+#quote {
+  margin-top: 50px;
+  font: italic 1.5em "Fira Sans", serif;
+}
